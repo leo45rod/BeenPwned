@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TweetMVVM"
+             x:Class="TweetMVVM.MainPage">
+
+    <StackLayout>
+        
+        <!-- Place new controls here -->
+        <ListView ItemsSource="{Binding Posts}" IsVisible="{Binding DataAvailable}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Author}" FontSize="Small"/>
+                            <Label Text="{Binding Description}" FontSize="Medium"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Label Text="{Binding ErrorMessage}" IsVisible="{Binding IsError}" FontSize="Medium"/>
+        <Label Text="Loading..." IsVisible="{Binding IsBusy}" FontSize="Medium"/>
+
+    </StackLayout>
+
+</ContentPage>
