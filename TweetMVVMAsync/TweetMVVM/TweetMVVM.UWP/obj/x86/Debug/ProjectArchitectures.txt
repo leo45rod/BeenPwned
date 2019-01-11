@@ -1,0 +1,1 @@
+C:\Users\Leo45\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\TweetMVVM.UWP.csproj;x86

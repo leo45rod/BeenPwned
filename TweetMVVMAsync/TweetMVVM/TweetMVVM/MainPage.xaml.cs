@@ -14,7 +14,7 @@ namespace TweetMVVM
         {
             InitializeComponent();
 
-            this.BindingContext = new PostsViewModel();
+            this.BindingContext = new AccountsViewModel();
         }
 
         protected async override void OnAppearing()
@@ -22,9 +22,10 @@ namespace TweetMVVM
             base.OnAppearing();
 
             // Load the posts
-            PostsViewModel vm = (PostsViewModel)BindingContext;
+            AccountsViewModel vm = (AccountsViewModel)BindingContext;
             //await vm.ExecuteLoadItemsCommand();
             vm.RefreshCommand.Execute(null);
         }
+
     }
 }

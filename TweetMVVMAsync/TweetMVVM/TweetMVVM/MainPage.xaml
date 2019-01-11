@@ -7,12 +7,12 @@
     <StackLayout>
         
         <!-- Place new controls here -->
-        <ListView ItemsSource="{Binding Posts}" IsVisible="{Binding DataAvailable}">
+        <ListView ItemsSource="{Binding Accounts}" IsVisible="{Binding DataAvailable}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout>
-                            <Label Text="{Binding Author}" FontSize="Small"/>
+                            <Label Text="{Binding Name}" FontSize="Small"/>
                             <Label Text="{Binding Description}" FontSize="Medium"/>
                         </StackLayout>
                     </ViewCell>
