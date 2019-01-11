@@ -303,3 +303,6 @@ C:\Users\Leo45\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP
 C:\Users\Leo45\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\Leo45\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Leo45\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758732200000000.json
+C:\Users\Andrew Spaziani\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\obj\x86\Debug\TweetMVVM.UWP.csprojAssemblyReference.cache
+C:\Users\Andrew Spaziani\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\obj\x86\Debug\TweetMVVM.UWP.exe
+C:\Users\Andrew Spaziani\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\obj\x86\Debug\TweetMVVM.UWP.pdb

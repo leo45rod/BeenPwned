@@ -7707,24 +7707,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Leo45\\.nuget\\packages\\": {},
+    "C:\\Users\\Andrew Spaziani\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leo45\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM.UWP\\TweetMVVM.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Andrew Spaziani\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM.UWP\\TweetMVVM.UWP.csproj",
       "projectName": "TweetMVVM.UWP",
-      "projectPath": "C:\\Users\\Leo45\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM.UWP\\TweetMVVM.UWP.csproj",
-      "packagesPath": "C:\\Users\\Leo45\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leo45\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM.UWP\\obj\\",
+      "projectPath": "C:\\Users\\Andrew Spaziani\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM.UWP\\TweetMVVM.UWP.csproj",
+      "packagesPath": "C:\\Users\\Andrew Spaziani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andrew Spaziani\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Leo45\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andrew Spaziani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7737,8 +7737,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Leo45\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM\\TweetMVVM.csproj": {
-              "projectPath": "C:\\Users\\Leo45\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM\\TweetMVVM.csproj"
+            "C:\\Users\\Andrew Spaziani\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM\\TweetMVVM.csproj": {
+              "projectPath": "C:\\Users\\Andrew Spaziani\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM\\TweetMVVM.csproj"
             }
           }
         }

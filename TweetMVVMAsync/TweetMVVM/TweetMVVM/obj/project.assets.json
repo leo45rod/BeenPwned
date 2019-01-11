@@ -419,23 +419,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Leo45\\.nuget\\packages\\": {},
+    "C:\\Users\\Andrew Spaziani\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leo45\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM\\TweetMVVM.csproj",
+      "projectUniqueName": "C:\\Users\\Andrew Spaziani\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM\\TweetMVVM.csproj",
       "projectName": "TweetMVVM",
-      "projectPath": "C:\\Users\\Leo45\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM\\TweetMVVM.csproj",
-      "packagesPath": "C:\\Users\\Leo45\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leo45\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM\\obj\\",
+      "projectPath": "C:\\Users\\Andrew Spaziani\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM\\TweetMVVM.csproj",
+      "packagesPath": "C:\\Users\\Andrew Spaziani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andrew Spaziani\\Documents\\GitHub\\BeenPwned\\TweetMVVMAsync\\TweetMVVM\\TweetMVVM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Leo45\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andrew Spaziani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

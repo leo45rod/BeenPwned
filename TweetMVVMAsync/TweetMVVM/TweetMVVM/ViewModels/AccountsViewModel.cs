@@ -86,7 +86,7 @@ namespace TweetMVVM.ViewModels
                     Timeout = GlobalConstants.RequestTimeout
                 };
                 request.Resource = GlobalConstants.AccountEndPointRequestURL;
-                request.AddParameter("account", "bspaziani@aol.com", ParameterType.UrlSegment);
+                request.AddParameter("account", "spaziani96@gmail.com", ParameterType.UrlSegment);
 
 
                 var response = await client.ExecuteTaskAsync(request);
