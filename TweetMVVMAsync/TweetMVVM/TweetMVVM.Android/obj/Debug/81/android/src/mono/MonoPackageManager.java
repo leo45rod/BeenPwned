@@ -106,6 +106,7 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "TweetMVVM.Android.dll" comes first in this list. */
+		"TweetMVVM.Android.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
 		"RestSharp.dll",

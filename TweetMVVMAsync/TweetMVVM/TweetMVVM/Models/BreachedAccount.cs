@@ -21,5 +21,6 @@ namespace TweetMVVM.Models
         public bool IsSensitive { get; set; }
         public bool IsRetired { get; set; }
         public bool IsSpamList { get; set; }
+        public string EmailAddress { get; set; }
     }
 }

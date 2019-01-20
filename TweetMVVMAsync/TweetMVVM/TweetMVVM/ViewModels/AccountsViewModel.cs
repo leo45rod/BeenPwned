@@ -15,16 +15,22 @@ namespace TweetMVVM.ViewModels
     public class AccountsViewModel : INotifyPropertyChanged
     {
         public ObservableCollection<BreachedAccount> Accounts { get; set; }
-
+        
         private bool isBusy, isError, dataAvailable;
         private string errorMessage = "";
         
         public AccountsViewModel ()
         {
-
+            
         }
 
+        public string input = "";
 
+        public string Input
+        {
+            get { return input; }
+            set { input = value; OnPropertyChanged("Input"); }
+        }
         /// <summary>
         /// Gets or sets if the View Model is busy
         /// </summary>
@@ -73,6 +79,7 @@ namespace TweetMVVM.ViewModels
 
         public async Task ExecuteLoadItemsCommand()
         {
+            MainPage main = new MainPage();
             if (IsBusy) return;
             IsBusy = true;
 
@@ -86,9 +93,9 @@ namespace TweetMVVM.ViewModels
                     Timeout = GlobalConstants.RequestTimeout
                 };
                 request.Resource = GlobalConstants.AccountEndPointRequestURL;
-                request.AddParameter("account", "spaziani96@gmail.com", ParameterType.UrlSegment);
 
-
+                request.AddParameter("account", Input, ParameterType.UrlSegment);
+                
                 var response = await client.ExecuteTaskAsync(request);
 
                 if (response.IsSuccessful)
@@ -100,7 +107,6 @@ namespace TweetMVVM.ViewModels
                     foreach (var item in items)
                     {
                        Accounts.Add(item);
-
                     }
 
                     DataAvailable = true;

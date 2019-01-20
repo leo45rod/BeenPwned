@@ -5,7 +5,6 @@
              x:Class="TweetMVVM.MainPage">
 
     <StackLayout>
-        
         <!-- Place new controls here -->
         <ListView ItemsSource="{Binding Accounts}" IsVisible="{Binding DataAvailable}">
             <ListView.ItemTemplate>
@@ -13,13 +12,17 @@
                     <ViewCell>
                         <StackLayout>
                             <Label Text="{Binding Name}" FontSize="Small"/>
+                            <Label Text="{Binding BreachDate}" FontSize="Small"/>
                             <Label Text="{Binding Description}" FontSize="Medium"/>
+                            <Label Text="{Binding DataClasses}" FontSize="Small"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
+        <Label Text="Enter an Email address"/>
+        <Entry Placeholder="" x:Name="Email"/>
+        <Button Text="SEARCH" Clicked="Button_Clicked"/>
         <Label Text="{Binding ErrorMessage}" IsVisible="{Binding IsError}" FontSize="Medium"/>
         <Label Text="Loading..." IsVisible="{Binding IsBusy}" FontSize="Medium"/>
 
