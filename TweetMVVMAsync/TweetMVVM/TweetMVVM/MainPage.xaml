@@ -6,15 +6,17 @@
 
     <StackLayout>
         <!-- Place new controls here -->
+        <Label Text="Breaches in this account:" IsVisible="{Binding DataAvailable}" HorizontalTextAlignment="Center" FontSize="Large"/>
         <ListView ItemsSource="{Binding Accounts}" IsVisible="{Binding DataAvailable}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout>
-                            <Label Text="{Binding Name}" FontSize="Small"/>
+                            <Label Text="{Binding Name}" FontSize="Small" FontAttributes="Bold"/>
                             <Label Text="{Binding BreachDate}" FontSize="Small"/>
-                            <Label Text="{Binding Description}" FontSize="Medium"/>
-                            <Label Text="{Binding DataClasses}" FontSize="Small"/>
+                            <Label Text="{Binding Description}" FontSize="Medium" FontAttributes="Italic"/>
+                            <Label Text="Information that may have been breached:" FontSize="Medium" FontAttributes="Bold"/>
+                            <ListView ItemsSource="{Binding DataClasses}" RowHeight="32"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

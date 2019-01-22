@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Andrew Spaziani\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-21T22:06:32.348</Modified>
+      <Modified>2019-01-22T02:12:07.660</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -175,19 +175,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrew Spaziani\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-01-21T22:02:54.218</Modified>
+      <Modified>2019-01-22T02:09:56.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrew Spaziani\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\bin\x86\Release\ilc\TweetMVVM.UWP.dll">
       <PackagePath>TweetMVVM.UWP.dll</PackagePath>
-      <Modified>2019-01-21T22:06:28.666</Modified>
+      <Modified>2019-01-22T02:12:05.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrew Spaziani\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\bin\x86\Release\ilc\TweetMVVM.UWP.exe">
       <PackagePath>TweetMVVM.UWP.exe</PackagePath>
-      <Modified>2019-01-21T22:06:32.118</Modified>
+      <Modified>2019-01-22T02:12:07.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andrew Spaziani\Documents\GitHub\BeenPwned\TweetMVVMAsync\TweetMVVM\TweetMVVM.UWP\bin\x86\Release\ilc\TweetMVVM.UWP.pdb">
       <PackagePath>TweetMVVM.UWP.pdb</PackagePath>
-      <Modified>2019-01-21T22:06:32.010</Modified>
+      <Modified>2019-01-22T02:12:07.603</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
